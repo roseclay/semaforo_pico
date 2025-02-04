@@ -1,0 +1,11 @@
+echo '{
+    "version": 1,
+    "target": "raspberry-pi-pico",
+    "gpiopins": {
+      "11": "LED_R",
+      "12": "LED_G",
+      "13": "LED_B",
+      "5": "BUTTON"
+    }
+  }' > wokwi/projeto_wokwi.json
+  
